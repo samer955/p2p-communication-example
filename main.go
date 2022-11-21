@@ -20,7 +20,7 @@ const topic = "greet"
 func main() {
 
 	nickFlag := flag.String("nick", "", "nickname to use in chat. will be generated if empty")
-	//flag.Parse()
+	flag.Parse()
 
 	ctx := context.Background()
 	// To construct a simple host with all the default settings, just use `New`
